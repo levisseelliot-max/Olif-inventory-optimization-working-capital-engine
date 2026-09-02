@@ -10,7 +10,7 @@ Interactive Tableau dashboard designed to monitor inventory health, prioritize r
 
 <p align="center">
 
-### 👉 [Open the Interactive Tableau Dashboard](https://public.tableau.com/shared/93KCSSR5R?:display_count=n&:origin=viz_share_link)
+### 👉 [Open the Interactive Tableau Dashboard](https://public.tableau.com/views/DataCo_17882873759220/Tab1ExecutiveInventoryOverview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 </p>
 
