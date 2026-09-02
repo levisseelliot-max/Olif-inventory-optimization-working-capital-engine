@@ -20,14 +20,8 @@ Interactive Tableau dashboard designed to monitor inventory health, prioritize r
 
 ### 1️⃣ Executive Inventory Overview
 
-Provides a high-level view of:
+Provides a consolidated view of **Working Capital**, **Annual Holding Cost**, **Weighted Service Level**, and **Active SKUs**, combined with **ABC/XYZ segmentation** and SKU-level exposure to identify capital concentration and inventory optimization opportunities.
 
-- Working Capital
-- Annual Holding Cost
-- Weighted Service Level
-- Active SKUs
-- ABC/XYZ inventory segmentation
-- SKU-level inventory exposure
 
 <img width="1732" height="1065" alt="Tab 1 - Executive Inventory Overview" src="https://github.com/user-attachments/assets/2b8a9387-8ceb-4221-b60c-b3a924e801a7" />
 
@@ -35,14 +29,8 @@ Provides a high-level view of:
 
 ### 2️⃣ Operational Reorder Engine
 
-Designed for daily procurement decisions:
+Designed for daily procurement decisions, this tab highlights **Total Reorder Budget**, **Critical Stockout Breaches**, and **Reorder Requirements**, using **Stock vs. ROP analysis** to prioritize purchase orders and focus capital on the most urgent inventory gaps.
 
-- Total Reorder Budget
-- Critical Stockout Breaches
-- Reorder Requirements
-- Stock vs. Reorder Point (ROP)
-- Dynamic Reorder Action Table
-- Purchase prioritization
 
 <img width="1865" height="1065" alt="Tab 2 - Operational Reorder Engine" src="https://github.com/user-attachments/assets/e1d40ca4-a0be-403b-8c87-8ced50742ea5" />
 
@@ -50,13 +38,8 @@ Designed for daily procurement decisions:
 
 ### 3️⃣ What-If Scenario — Cash Release Simulator
 
-Interactive scenario analysis to evaluate the financial impact of supplier lead-time reduction:
+An interactive scenario tool designed to quantify the financial impact of **Lead-Time Reduction**, showing **Working Capital Released**, **Annual Holding Cost Savings**, and the **Top Beneficiary SKUs** to support supplier negotiation and working-capital decisions.
 
-- Lead-Time Reduction parameter: **0–100%**
-- Working Capital Released
-- Annual Holding Cost Savings
-- ABC Working Capital Comparison
-- Top Beneficiary SKUs
 
 <img width="1732" height="1065" alt="Tab 3 - What-If Scenario Cash Release Simulator" src="https://github.com/user-attachments/assets/43e087df-e7b8-459c-8a9d-92082a4be67b" />
 
