@@ -128,9 +128,9 @@ ROUND(
 
 | **Class** | **Revenue Contribution** | **Strategic Interpretation** |
 |---|---:|---|
-| 🅰️ **Class A** | Top **80%** | High-velocity commercial drivers requiring tight oversight |
-| 🅱️ **Class B** | Next **15%** | Core operational volume carrying substantial working capital |
-| 🅲️ **Class C** | Tail **5%** | Slow-moving catalog subject to minimum stock rationalization |
+| **Class A** | Top **80%** | High-velocity commercial drivers requiring tight oversight |
+| **Class B** | Next **15%** | Core operational volume carrying substantial working capital |
+| **Class C** | Tail **5%** | Slow-moving catalog subject to minimum stock rationalization |
 
 **BigQuery SQL**
 
@@ -168,9 +168,9 @@ CONCAT(abc_class, xyz_class) AS abc_xyz_segment
 
 | **ABC Tier** | **Target CSL** | **Z-Factor** |
 |---|---:|---:|
-| 🅰️ Class A | **98.0%** | **2.054** |
-| 🅱️ Class B | **92.0%** | **1.405** |
-| 🅲️ Class C | **85.0%** | **1.036** |
+| Class A | **98.0%** | **2.054** |
+| Class B | **92.0%** | **1.405** |
+| Class C | **85.0%** | **1.036** |
 
 ## 3.2 Baseline Safety Stock — `SS_base`
 
@@ -264,9 +264,10 @@ $$
 
 ## 5.1 Simulated Inbound Lead Time — `L_sim`
 
-$$
-L_{sim}=L\times(1-Reduction\%)
-$$
+<p align="center">
+    <img width="216" height="43" alt="Screenshot 2026-09-02 at 14 52 13" src="https://github.com/user-attachments/assets/04b70d44-0846-49f1-9ce8-5f6b6abac7a0" />
+</p>
+
 
 ## 5.2 Simulated Safety Stock — `SS_sim`
 
