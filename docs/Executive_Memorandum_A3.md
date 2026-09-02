@@ -129,15 +129,7 @@ Lead time reduction delivers highly concentrated savings across top inventory li
 | **Weighted Portfolio Service Level** | **91.15%** | **≥96.00%** | SLA protection on top revenue and margin drivers |
 | **Class B Working Capital Allocation** | **$771,060** | **$735,780** | Downsizing over-buffered predictable lines (BX) |
 
-## Immediate Decision Gate & Next Steps
 
-1. **CFO Approval:** Authorize **Tranche 1 procurement disbursement ($311,932)** to prevent revenue collapse on Lawn Mowers, Heaters, and Smart Watches.
-
-2. **COO Mandate:** Authorize supply chain team to execute **Tier-1 vendor lead time negotiations** to secure the **50% cycle compression target** before Q4 order cycles.
-
-3. **Operations Review:** Institutionalize bi-weekly reviews using the **Tableau Operational Reorder Engine (Tab 2)** to govern purchase approvals against real-time ROP breaches.
-
----
 
 ## 📌 Decision Summary
 
@@ -151,6 +143,4 @@ Lead time reduction delivers highly concentrated savings across top inventory li
 
 ---
 
-*Prepared by the Global Supply Chain & Operations Analytics Practice.*  
-*Source: Executive Strategy Briefing — September 2, 2026.*
 
