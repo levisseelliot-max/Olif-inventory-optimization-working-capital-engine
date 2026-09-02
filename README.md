@@ -89,3 +89,59 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
   - **Recurring Holding Cost Reduction: +$12,787/year** direct EBITDA accretion.
 
   - **Top Single Beneficiary:** _Dell Laptop (SKU 1351)_ alone yields **$2,306/yr** in holding cost reduction ($9,224 cash unlocked).
+
+## 📊 Tableau BI Suite Walkthrough
+
+| **Dashboard Tab**                       | **Key Visual Components**                                                                                                                                                                 | **Strategic Objective**                                                                                                   |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Tab 1: Executive Inventory Overview** | • BANs: Working Capital ($1.01M), Holding Cost ($252k), Service Level (91.15%), Active SKUs (118)<br>• Strategic ABC/XYZ Matrix (Holding Cost Heatmap)<br>• Interactive SKU Detail Ledger | C-Suite visibility into capital allocation imbalances and carrying cost concentration across demand predictability tiers. |
+| **Tab 2: Operational Reorder Engine**   | • BANs: Total Reorder Budget ($441.7k), Critical Breaches (24), Reorder Items (37)<br>• Stock vs. ROP Bar-in-Bar Threshold Visualizer<br>• Dynamic Reorder Action Table (Units & Value)   | Daily operational cockpit for procurement teams, prioritizing purchase order issuance by capital exposure.                |
+| **Tab 3: What-If Scenario Simulator**   | • Dynamic Lead Time Reduction Parameter Slider (0%–100%)<br>• Real-time Recalculated BANs (Cash Released & Holding Savings)<br>• ABC Working Capital Comparison & Top 10 Beneficiary SKUs | Negotiation sandbox for supply chain leaders to quantify balance-sheet ROI before vendor SLA renegotiation.               |
+
+---
+
+## 🚀 Strategic Recommendations & Implementation Roadmap
+
+| **Pillar**   | **Strategic Lever**               | **Operational Mechanism**                                                                       | **Financial & Operational Impact**                                                              |
+| ------------ | --------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Pillar 1** | **Safety Stock Realignment**      | Differentiate service levels: **98% for Class A, 92% for Class B, 85% for Class C**             | Immediately deflates **$35,280** in excess Class B buffer stock.                                |
+| **Pillar 2** | **Inbound Lead Time Compression** | Contractual SLA enforcement and vendor stocking programs (**-50% lead time**)                   | Permanently unlocks **$51,150 in cash** and saves **$12,787/yr in carrying costs**.             |
+| **Pillar 3** | **Tranche-Based Procurement**     | Split **$441.7k** reorder into Tranche 1 (Top 3 lines: **$311.9k**) and Tranche 2 (**$129.8k**) | Eliminates **100% of revenue stockout threats** while containing monthly working capital drain. |
+
+---
+
+## 📁 Repository Structure
+
+```text
+├── sql/
+│   ├── 01_inventory_staging_ddl.sql
+│   │   # Table schemas & data ingestion pipelines
+│   ├── 02_abc_xyz_stratification.sql
+│   │   # Revenue Pareto & demand volatility modeling
+│   └── 03_dynamic_rop_safety_stock.sql
+│       # Safety stock formulas & ROP alert engine
+│
+├── docs/
+│   ├── Executive_Memorandum_A3.md
+│   │   # C-Suite Decision Note & Investment Briefing
+│   └── Inventory_KPI_Dictionary.md
+│       # Business definitions & operational formulas
+│
+├── tableau/
+│   └── Inventory_Optimization_Suite.twbx
+│       # Packaged Tableau Workbook (3 Executive Tabs)
+│
+└── README.md
+    # Executive Project Showcase & ROI Diagnostic
+```
+
+---
+
+## 👤 Author & Contact
+
+**Elliot Levisse** — *Supply Chain & Operations Analytics Specialist*
+
+* 🎓 Master of Science in Supply Chain & Business Organization — **IÉSEG School of Management**
+* 📦 Specialized in inventory modeling, operational turnaround, and BI decision cockpits.
+* 🔗 **LinkedIn:** [linkedin.com/in/elliotlevisse](https://linkedin.com/in/elliotlevisse)
+* 💻 **GitHub:** [github.com/elliotlevisse](https://github.com/elliotlevisse-max)
