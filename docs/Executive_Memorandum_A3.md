@@ -45,7 +45,7 @@
 | Class A (Top 80% Revenue) | $24.6K | $0.0K | $98,213 | $24,553 |
 | Class B (Next 15% Revenue) | $153.7K | $39.1K | $771,060 | $192,765 |
 | Class C (Tail 5% Revenue) | $17.5K | $17.1K | $138,623 | $34,656 |
-| Total Portfoli  - | $195.8K | $56.2K | $1,007,896 | $251,974 |
+| Total Portfolio | $195.8K | $56.2K | $1,007,896 | $251,974 |
 
 ## Core Analytical Insights
 - **The Class B Over-Buffering Trap:** While conventional inventory strategy concentrates safety stock on Class A, our baseline reveals that Class B absorbs **$771,060** (76.5%) of total enterprise working capital. Sub-segment **BX** alone represents **$153.7K** in annual holding cost overhead. Because BX exhibits highly predictable demand patterns, this capital represents unnecessary defensive buffering driven by inflated supplier lead-time quotes rather than consumption volatility.
@@ -58,9 +58,9 @@
 
 
 ## 3. 🚨 Immediate Operational Vulnerability & Cash Reorder Requirements
-> **Key Finding:** The enterprise faces an immediate supply cliff: 24 SKUs (20.3% of portfolio) have breached safety stock thresholds int  - critical stockout territory, and 37 SKUs have pierced their Reorder Point (ROP), requiring $441,730 in working capital deployment t  - restore optimal buffer levels.
+> **Key Finding:** The enterprise faces an immediate supply cliff: 24 SKUs (20.3% of portfolio) have breached safety stock thresholds into critical stockout territory, and 37 SKUs have pierced their Reorder Point (ROP), requiring $441,730 in working capital deployment to restore optimal buffer levels.
 
-| Alert Status Category | SKU Count | Portfoli  - Share (%) | Operational Status | Immediate Capital Required ($) |
+| Alert Status Category | SKU Count | Portfolio Share (%) | Operational Status | Immediate Capital Required ($) |
 | --- | --- | --- | --- | --- |
 | 🔴 Critical Stockout Risk | **24** | **20.3%** | Current Stock  Safety Stock | $379,561 |
 | 🟡 Reorder Required | **37** | **31.4%** | Safety Stock < Stock  ROP | $62,169 |
@@ -81,56 +81,61 @@ A Paret analysis of the **$441,730** purchase commitment demonstrates that 71.8%
 ## 4. What-If Scenario Analysis: Impact of 50% Lead Time Compression
 > **Key Finding:** Contractually compressing inbound supplier lead times by 50% mathematically reduces required safety stock levels (), releasing $51,150 in permanent balance-sheet cash and generating $12,787 in recurring annualized P&L holding cost savings.
 
-| Product Revenue Class | Baseline Working Capital | Simulated Working Capital (-50% Lead Time) | Cash Released t  - Balance Sheet | Annual Holding Cost Savings (25%) |
+| Product Revenue Class | Baseline Working Capital | Simulated Working Capital (-50% Lead Time) | Cash Released to Balance Sheet | Annual Holding Cost Savings (25%) |
 | --- | --- | --- | --- | --- |
 | Class A (High Value) | $98,213 | $95,708 | +$2,505 | +$626/yr |
 | Class B (Volume Core) | $771,060 | $735,780 | +$35,280 | +$8,820/yr |
 | Class C (Long Tail) | $138,623 | $125,257 | +$13,366 | +$3,342/yr |
 | Consolidated Enterprise | $1,007,896 | $956,746 | +$51,150 | +$12,787/yr |
 
-Top 10 SKU Beneficiaries (Annual Holding Cost Savings)
+## Top 10 SKU Beneficiaries (Annual Holding Cost Savings)
 Lead time reduction delivers highly concentrated savings across top inventory lines:
-Dell Laptop (SKU 1351): $2,306/yr savings ($9,224 working capital permanently unlocked).
-Smart Watch (SKU 1360): $979/yr savings ($3,916 capital unlocked).
-First Aid Kit (SKU 1356): $894/yr savings ($3,576 capital unlocked).
-Rock Music (SKU 1358): $851/yr savings ($3,404 capital unlocked).
-Porcelain Crafts (SKU 1353): $791/yr savings ($3,164 capital unlocked).
-Children’s Heaters (SKU 1350): $759/yr savings ($3,036 capital unlocked).
-Remaining Top 10 (DVDs, Web Camera, SOLE E35, Lawn Mower): $1,812/yr combined savings.
----
+- **Dell Laptop (SKU 1351): $2,306/yr** savings ($9,224 working capital permanently unlocked).
+- **Smart Watch (SKU 1360): $979/yr** savings ($3,916 capital unlocked).
+- **First Aid Kit (SKU 1356): $894/yr** savings ($3,576 capital unlocked).
+- **Rock Music (SKU 1358): $851/yr** savings ($3,404 capital unlocked).
+- **Porcelain Crafts (SKU 1353): $791/yr** savings ($3,164 capital unlocked).
+- **Children’s Heaters (SKU 1350): $759/yr** savings ($3,036 capital unlocked).
+- **Remaining Top 10 (DVDs, Web Camera, SOLE E35, Lawn Mower): $1,812/yr** combined savings.
+
 
 ## 5. 🚀 Strategic Turnaround Plan
 ### 🔹 Pillar 1: Dynamic Reorder Point & Safety Stock Realignment
-Operational Action: Transition from static safety stock targets t  - dynamic service-level calibration:
-Maintain strict 98.0% cycle service levels exclusively on Class A items.
-Adjust Class B targets t  - 92.0% and Class C t  - 85.0%, immediately eliminating structural over-buffering in BX items.
-Financial Impact: Reduces baseline carrying requirements across Class B by $35,280, mitigating future surplus inventory exposure.
+- **Operational Action:** Transition from static safety stock targets to dynamic service-level calibration:
+  -  Maintain strict **98.0% cycle service levels** exclusively on Class A items.
+  -  Adjust Class B targets to **92.0%** and Class C to **85.0%**, immediately eliminating structural over-buffering in BX items.
+**Financial Impact:** Reduces baseline carrying requirements across Class B by **$35,280**, mitigating future surplus inventory exposure.
+
 ### 🔹 Pillar 2: Inbound Lead-Time Compression & Vendor SLA Enforcement
-Operational Action: Establish vendor compliance agreements with Tier-1 suppliers (specifically electronics, fitness equipment, and seasonal outdoor goods) targeting a 50% reduction in order-to-delivery lead times:
-Implement EDI dispatch pre-notifications and electronic order acknowledgments within 4 hours.
-Negotiate vendor stocking programs (VMI / consignment) for high-ticket Class A items (Dell Laptop, SOLE Ellipticals).
-Financial Impact: Permanently releases $51,150 from cycle and safety stocks int  - operating cash; cuts $12,787/yr in holding costs.
+- **Operational Action:** Establish vendor compliance agreements with Tier-1 suppliers (specifically electronics, fitness equipment, and seasonal outdoor goods) targeting a 50% reduction in order-to-delivery lead times:
+  - Implement EDI dispatch pre-notifications and electronic order acknowledgments within 4 hours.
+  - Negotiate vendor stocking programs (VMI / consignment) for high-ticket Class A items (Dell Laptop, SOLE Ellipticals).
+**Financial Impact:** Permanently releases **$51,150** from cycle and safety stocks into operating cash; cuts **$12,787/yr** in holding costs.
+
 ### 🔹 Pillar 3: Capital-Constrained Reorder Batching & Procurement Prioritization
-Operational Action: Rather than issuing an unconstrained $441,730 purchase blanket, segment procurement execution int  - tw  - cash-flow tranches:
-Tranche 1 (Immediate / Week 1): Deploy $311,932 dedicated exclusively t  - the Top 3 revenue-critical stockouts (Lawn Mower, Children’s Heaters, Smart Watch).
-Tranche 2 (Week 3–4): Deploy remaining $129,798 across secondary critical and reorder items, funded directly by working capital released from slow-moving Class C destocking.
-Financial Impact: Eliminates 100% of revenue-threatening stockouts while containing peak monthly cash drain within approved working capital revolvers.
----
+- **Operational Action:** Rather than issuing an unconstrained **$441,730** purchase blanket, segment procurement execution into two cash-flow tranches:
+  - **Tranche 1 (Immediate / Week 1):** Deploy **$311,932** dedicated exclusively to the Top 3 revenue-critical stockouts (Lawn Mower, Children’s Heaters, Smart Watch).
+  - T**ranche 2 (Week 3–4):** Deploy remaining **$129,798** across secondary critical and reorder items, funded directly by working capital released from slow-moving Class C destocking.
+- **Financial Impact:** Eliminates 100% of revenue-threatening stockouts while containing peak monthly cash drain within approved working capital revolvers.
+
 
 ## 6. 📈 Financial Scorecard & Implementation Governance
 
 | Strategic Performance Indicator | Current Baseline | Target State (6 Months) | Business Rationale & Verification |
 | --- | --- | --- | --- |
-| Total Working Capital Tied in Stock | $1,007,896 | $956,746 | -$51,150 permanent cash release via lead time reduction |
-| Annual Inventory Holding Cost (25%) | $251,974 | $239,187 | +$12,787/yr direct EBITDA accretion |
-| Critical Stockout Count (🔴) | 24 SKUs | 0 SKUs | Immediate Tranche 1 & 2 replenishment execution |
-| Weighted Portfoli  - Service Level | 91.15% | ≥96.00% | SLA protection on top revenue and margin drivers |
-| Class B Working Capital Allocation | $771,060 | $735,780 | Downsizing over-buffered predictable lines (BX) |
+| **Total Working Capital Tied in Stock** | **$1,007,896** | **$956,746** | **-$51,150** permanent cash release via lead time reduction |
+| **Annual Inventory Holding Cost (25%)** | **$251,974** | **$239,187** | **+$12,787/yr** direct EBITDA accretion |
+| **Critical Stockout Count (🔴)** | **24 SKUs** | **0 SKUs** | Immediate Tranche 1 & 2 replenishment execution |
+| **Weighted Portfolio Service Level** | **91.15%** | **≥96.00%** | SLA protection on top revenue and margin drivers |
+| **Class B Working Capital Allocation** | **$771,060** | **$735,780** | Downsizing over-buffered predictable lines (BX) |
 
-Immediate Decision Gate & Next Steps
-CFO Approval: Authorize Tranche 1 procurement disbursement ($311,932) t  - prevent revenue collapse on Lawn Mowers, Heaters, and Smart Watches.
-COO Mandate: Authorize supply chain team t  - execute Tier-1 vendor lead time negotiations t  - secure the 50% cycle compression target before Q4 order cycles.
-Operations Review: Institutionalize bi-weekly reviews using the Tableau Operational Reorder Engine (Tab 2) t  - govern purchase approvals against real-time ROP breaches.
+## Immediate Decision Gate & Next Steps
+
+1. **CFO Approval:** Authorize **Tranche 1 procurement disbursement ($311,932)** to prevent revenue collapse on Lawn Mowers, Heaters, and Smart Watches.
+
+2. **COO Mandate:** Authorize supply chain team to execute **Tier-1 vendor lead time negotiations** to secure the **50% cycle compression target** before Q4 order cycles.
+
+3. **Operations Review:** Institutionalize bi-weekly reviews using the **Tableau Operational Reorder Engine (Tab 2)** to govern purchase approvals against real-time ROP breaches.
 
 ---
 
