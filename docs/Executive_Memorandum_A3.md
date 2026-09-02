@@ -23,7 +23,8 @@
 ---
 
 ## 1. 🎯 Executive Summary & Investment Thesis
-> **Key Finding: The active portfoli  - of 118 SKUs currently ties up $1,007,896 in working capital, incurring $251,974 in annual holding costs (25% carrying rate) while masking severe operational vulnerability: 24 SKUs are in critical stockout breach and 37 require immediate reorder, demanding an urgent gross cash injection of $441,730. By executing a 50% lead-time compression and safety stock recalibration program, the enterprise will permanently release $51,150 in net cash, capture $12,787 in recurring annual holding cost reductions, and eliminate stockout volatility.**
+> **Key Finding:** The active portfolio of 118 SKUs currently ties up **$1,007,896** in working capital, incurring **$251,974** in annual holding costs (25% carrying rate) while masking severe operational vulnerability: 24 SKUs are in critical stockout breach and 37 require immediate reorder, demanding an urgent gross cash injection of **$441,730**. By executing a 50% lead-time compression and safety stock recalibration program, the enterprise will permanently release **$51,150** in net cash, capture **$12,787** in recurring annual holding cost reductions, and eliminate stockout volatility.
+
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    BASELINE STATE (118 Active SKUs)                         │
