@@ -61,14 +61,15 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
 - **Financial Modeling:** Inventory holding cost attribution (25% annual carrying rate) and balance-sheet cash release mechanics.
 
 ## 🔍 Diagnostic & Analytical Insights
-### 1. The Class B Over-Buffering Trap (ABC/XYZ Stratification)**
+
+### 1. The Class B Over-Buffering Trap (ABC/XYZ Stratification)
 - Conventional operations focus inventory governance almost exclusively on Class A. However, our diagnostic reveals that **Class B absorbs $771,060 (76.5%) of enterprise working capital**.
 
 - The **BX segment** (moderate revenue, highly predictable demand) accounts for **$153.7K in annual holding overhead**. Because demand predictability is high, this inventory represents defensive over-buffering driven by vendor lead-time conservatism rather than market volatility.
 
+
 ### 2. Immediate Operational Fragility ($441,730 Reorder Deficit)
-- **51.7% of the entire portfolio is in immediate supply breach:
-**
+- **51.7% of the entire portfolio is in immediate supply breach:**
   - 🔴 **24 SKUs (Critical Stockout Risk):** Current on-hand stock has pierced safety stock levels, requiring $379,561.
 
   - 🟡 **37 SKUs (Reorder Required):** On-hand stock is below ROP, requiring $62,169.
@@ -80,6 +81,7 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
 2. _Children’s Heaters (SKU 1350):_ 96 on hand vs. 357 ROP. **Order Cost: $93,203** (21.1% of total budget).
 
 3. _Smart Watch (SKU 1360):_ 86 on hand vs. 300 ROP. **Order Cost: $70,139** (15.9% of total budget).
+   
 
 ### 3. What-If Simulation: Compressing Lead Time by 50%
 - Contractually compressing supplier lead times by 50% structurally deflates safety stock requirements:
@@ -89,6 +91,7 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
   - **Recurring Holding Cost Reduction: +$12,787/year** direct EBITDA accretion.
 
   - **Top Single Beneficiary:** _Dell Laptop (SKU 1351)_ alone yields **$2,306/yr** in holding cost reduction ($9,224 cash unlocked).
+    
 
 ## 📊 Tableau BI Suite Walkthrough
 
@@ -114,25 +117,15 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
 
 ```text
 ├── sql/
-│   ├── 01_inventory_staging_ddl.sql
-│   │   # Table schemas & data ingestion pipelines
-│   ├── 02_abc_xyz_stratification.sql
-│   │   # Revenue Pareto & demand volatility modeling
-│   └── 03_dynamic_rop_safety_stock.sql
-│       # Safety stock formulas & ROP alert engine
-│
+│   ├── 01_inventory_staging_ddl.sql          # Table schemas & data ingestion pipelines
+│   ├── 02_abc_xyz_stratification.sql         # Revenue Pareto & demand volatility modeling
+│   └── 03_dynamic_rop_safety_stock.sql       # Safety stock formulas & ROP alert engine
 ├── docs/
-│   ├── Executive_Memorandum_A3.md
-│   │   # C-Suite Decision Note & Investment Briefing
-│   └── Inventory_KPI_Dictionary.md
-│       # Business definitions & operational formulas
-│
+│   ├── Executive_Memorandum_A3.md            # C-Suite Decision Note & Investment Briefing
+│   └── Inventory_KPI_Dictionary.md           # Business definitions & operational formulas
 ├── tableau/
-│   └── Inventory_Optimization_Suite.twbx
-│       # Packaged Tableau Workbook (3 Executive Tabs)
-│
-└── README.md
-    # Executive Project Showcase & ROI Diagnostic
+│   └── Inventory_Optimization_Suite.twbx     # Packaged Tableau Workbook (3 Executive Tabs)
+└── README.md                                 # Executive Project Showcase & ROI Diagnostic
 ```
 
 ---
