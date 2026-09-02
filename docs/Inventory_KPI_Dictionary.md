@@ -26,6 +26,18 @@ This KPI dictionary defines the mathematical, operational, SQL, and financial lo
 
 ---
 
+## 🎯 Executive KPI Reference
+
+| **KPI** | **Baseline** | **Target / Simulation** | **Strategic Meaning** |
+|---|---:|---:|---|
+| **Working Capital** | **$1,007,896** | **$956,746** | **-$51,150** permanent cash release |
+| **Annual Holding Cost** | **$251,974** | **$239,187** | **+$12,787/yr** direct EBITDA accretion |
+| **Critical Stockouts** | **24 SKUs** | **0 SKUs** | Eliminate immediate supply vulnerability |
+| **Weighted Service Level** | **91.15%** | **≥ 96.00%** | Protect revenue and margin drivers |
+| **Total Reorder Budget** | **$441,730** | Tranche prioritized | Capital-constrained procurement execution |
+
+---
+
 # 1. 📦 Operational Demand & Inbound Metrics
 
 ## 1.1 Average Daily Demand — `d̄`
@@ -334,19 +346,7 @@ FINANCIAL OUTCOME
         └── EBITDA Savings
 ```
 
----
 
-## 🎯 Executive KPI Reference
-
-| **KPI** | **Baseline** | **Target / Simulation** | **Strategic Meaning** |
-|---|---:|---:|---|
-| **Working Capital** | **$1,007,896** | **$956,746** | **-$51,150** permanent cash release |
-| **Annual Holding Cost** | **$251,974** | **$239,187** | **+$12,787/yr** direct EBITDA accretion |
-| **Critical Stockouts** | **24 SKUs** | **0 SKUs** | Eliminate immediate supply vulnerability |
-| **Weighted Service Level** | **91.15%** | **≥ 96.00%** | Protect revenue and margin drivers |
-| **Total Reorder Budget** | **$441,730** | Tranche prioritized | Capital-constrained procurement execution |
-
----
 
 > **North Star:** Convert inventory data into procurement decisions that simultaneously protect service levels, reduce stockout exposure, and release trapped working capital.
 
