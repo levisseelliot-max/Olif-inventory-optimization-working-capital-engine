@@ -29,31 +29,27 @@
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    BASELINE STATE (118 Active SKUs)                         │
 │  $1,007,896 Working Capital │ $251,974 Annual Holding Cost (25% Carrying)   │
-│  91.15% Weighted Service Level │ 24 Critical Stockouts ($441,730 Gap)       │
+│  91.15% Weighted Service Level │ 24 Critical Stockouts ($441,730 Budget)    │
 └──────────────────────────────────────┬──────────────────────────────────────┘
-│
-STRATEGIC INTERVENTION (3 PILLARS)
----
-
-## 1. Target Safety Stock & Dynamic ROP Reset (ABC/XYZ Stratification)
----
-
-## 2. Lead Time Compression & Supplier SLA Enforcement (-50% Inbound)
----
-
-## 3. Capital-Constrained Purchase Batching on Top Capital Drivers
-│
-▼
+                                       │
+                      STRATEGIC INTERVENTION (3 PILLARS)
+           1. Dynamic Safety Stock & ROP Reset (ABC/XYZ Stratification)
+           2. Inbound Lead-Time Compression & Vendor SLAs (-50% Lead Time)
+           3. Capital-Constrained Purchase Batching on Critical Revenue Lines
+                                       │
+                                       ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                 SIMULATED TARGET STATE (-50% LEAD TIME)                     │
-│  $956,746 Working Capital Target │ $51,150 Net Working Capital Released     │
-│  $12,787/yr Recurring P&L Savings │ 100% Stockout Resolution on Class A/B    │
+│  $956,746 Working Capital Target │ $51,150 Permanent Cash Released          │
+│  $12,787/yr Recurring P&L Savings │ 100% Stockout Resolution on Class A/B   │
 └─────────────────────────────────────────────────────────────────────────────┘
-> **Strategic Recommendation: Authorize the immediate phased release of $441,730 in purchase orders prioritized by unit margin and critical stockout risk, concurrent with a supplier lead-time renegotiation initiative t  - permanently unlock $51,150 in balance sheet liquidity and protect enterprise service levels above 96.0%.**
----
+```
+
+**Strategic Recommendation:** Authorize the immediate phased release of **$441,730** in purchase orders prioritized by unit margin and critical stockout risk, concurrent with a supplier lead-time renegotiation initiative to permanently unlock **$51,150** in balance sheet liquidity and protect enterprise service levels above **96.0%**.
+
 
 ## 2. 📦 Baseline Diagnostic & Capital Distribution
-> **Key Finding: Working capital is heavily skewed and inefficiently allocated across predictable vs. volatile demand: Class B items absorb the vast majority of capital ($771,060 / 76.5%), while predictable Class X demand represents over $195.8K in carrying costs that can be structurally downsized without service degradation.**
+> **Key Finding:** Working capital is heavily skewed and inefficiently allocated across predictable vs. volatile demand: Class B items absorb the vast majority of capital ($771,060 / 76.5%), while predictable Class X demand represents over $195.8K in carrying costs that can be structurally downsized without service degradation.
 
 | Revenue Impact (A/B/C) | Predictable Demand (Class X) | Variable Demand (Class Y) | Total Working Capital | Baseline Holding Cost (25%) |
 | --- | --- | --- | --- | --- |
@@ -62,15 +58,15 @@ STRATEGIC INTERVENTION (3 PILLARS)
 | Class C (Tail 5% Revenue) | $17.5K | $17.1K | $138,623 | $34,656 |
 | Total Portfoli  - | $195.8K | $56.2K | $1,007,896 | $251,974 |
 
-Core Analytical Insights
-The Class B Over-Buffering Trap: While conventional inventory strategy concentrates safety stock on Class A, our baseline reveals that Class B absorbs $771,060 (76.5%) of total enterprise working capital. Sub-segment BX alone represents $153.7K in annual holding cost overhead. Because BX exhibits highly predictable demand patterns, this capital represents unnecessary defensive buffering driven by inflated supplier lead-time quotes rather than consumption volatility.
-Capital Concentration in Top Lines: The top 5 working capital consumers account for $526,328 (52.2%) of total portfoli  - capital:
-Dell Laptop (SKU 1351): $235,500 working capital ($58,875 annual holding cost; 464 units on hand vs. 157 safety stock).
-Lawn Mower (SKU 1355): $88,941 working capital ($22,235 holding cost; 100 units on hand vs. 167 safety stock).
-Web Camera (SKU 1349): $73,683 working capital ($18,421 holding cost; 469 units on hand).
-Porcelain Crafts (SKU 1353): $71,068 working capital ($17,767 holding cost).
-Children’s Heaters (SKU 1350): $57,136 working capital ($14,284 holding cost).
----
+## Core Analytical Insights
+- **The Class B Over-Buffering Trap:** While conventional inventory strategy concentrates safety stock on Class A, our baseline reveals that Class B absorbs **$771,060** (76.5%) of total enterprise working capital. Sub-segment **BX** alone represents **$153.7K** in annual holding cost overhead. Because BX exhibits highly predictable demand patterns, this capital represents unnecessary defensive buffering driven by inflated supplier lead-time quotes rather than consumption volatility.
+- **Capital Concentration in Top Lines:** The top 5 working capital consumers account for **$526,328 (52.2%)** of total portfolio capital:
+    - **Dell Laptop (SKU 1351):** $235,500 working capital ($58,875 annual holding cost; 464 units on hand vs. 157 safety stock).
+    - **Lawn Mower (SKU 1355):** $88,941 working capital ($22,235 holding cost; 100 units on hand vs. 167 safety stock).
+    - **Web Camera (SKU 1349):** $73,683 working capital ($18,421 holding cost; 469 units on hand).
+    - **Porcelain Crafts (SKU 1353):** $71,068 working capital ($17,767 holding cost).
+    - **Children’s Heaters (SKU 1350):** $57,136 working capital ($14,284 holding cost).
+
 
 ## 3. 🚨 Immediate Operational Vulnerability & Cash Reorder Requirements
 > **Key Finding: The enterprise faces an immediate supply cliff: 24 SKUs (20.3% of portfolio) have breached safety stock thresholds int  - critical stockout territory, and 37 SKUs have pierced their Reorder Point (ROP), requiring $441,730 in working capital deployment t  - restore optimal buffer levels.**
