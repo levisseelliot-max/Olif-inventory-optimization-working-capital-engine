@@ -136,5 +136,5 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
 
 * 🎓 Master of Science in Supply Chain & Business Organization — **IÉSEG School of Management**
 * 📦 Specialized in inventory modeling, operational turnaround, and BI decision cockpits.
-* 🔗 **LinkedIn:** [linkedin.com/in/elliotlevisse](https://linkedin.com/in/elliotlevisse)
-* 💻 **GitHub:** [github.com/elliotlevisse](https://github.com/levisseelliot-max)
+* 🔗 **LinkedIn:** [linkedin.com/in/elliotlevisse](https://www.linkedin.com/in/elliot-levisse/)
+* 💻 **GitHub:** [github.com/elliotlevisse-max](https://github.com/levisseelliot-max)
