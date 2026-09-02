@@ -69,25 +69,28 @@
 
 
 ## 3. 🚨 Immediate Operational Vulnerability & Cash Reorder Requirements
-> **Key Finding: The enterprise faces an immediate supply cliff: 24 SKUs (20.3% of portfolio) have breached safety stock thresholds int  - critical stockout territory, and 37 SKUs have pierced their Reorder Point (ROP), requiring $441,730 in working capital deployment t  - restore optimal buffer levels.**
+> **Key Finding:** The enterprise faces an immediate supply cliff: 24 SKUs (20.3% of portfolio) have breached safety stock thresholds int  - critical stockout territory, and 37 SKUs have pierced their Reorder Point (ROP), requiring $441,730 in working capital deployment t  - restore optimal buffer levels.
 
 | Alert Status Category | SKU Count | Portfoli  - Share (%) | Operational Status | Immediate Capital Required ($) |
 | --- | --- | --- | --- | --- |
-| 🔴 Critical Stockout Risk | 24 | 20.3% | Current Stock  Safety Stock | $379,561 |
-| 🟡 Reorder Required | 37 | 31.4% | Safety Stock < Stock  ROP | $62,169 |
-| 🟢 Optimal Buffer | 57 | 48.3% | Current Stock > ROP | $0 |
-| Consolidated Requirement | 118 | 100.0% | 51.7% Portfoli  - Exposure | $441,730 |
+| 🔴 Critical Stockout Risk | **24** | **20.3%** | Current Stock  Safety Stock | $379,561 |
+| 🟡 Reorder Required | **37** | **31.4%** | Safety Stock < Stock  ROP | $62,169 |
+| 🟢 Optimal Buffer | **57** | **48.3%** | Current Stock > ROP | $0 |
+| Consolidated Requirement | **118** | **100.0%** | **51.7% Portfolio Exposure** | **$441,730**|
 
-Priority Reorder Capital Allocation (Top Risk Contributors)
-A Paret  - analysis of the $441,730 purchase commitment demonstrates that 71.8% of the capital deficit is concentrated across just three commercial lines:
-Lawn Mower (SKU 1355): 100 units in stock vs. 379 ROP. Deficit: 279 units. Immediate order cost: $148,590 (33.6% of total reorder budget).
-Children’s Heaters (SKU 1350): 96 units in stock vs. 357 ROP. Deficit: 261 units. Immediate order cost: $93,203 (21.1% of total budget).
-Smart Watch (SKU 1360): 86 units in stock vs. 300 ROP. Deficit: 214 units. Immediate order cost: $70,139 (15.9% of total budget).
-Secondary Critical Drivers: Porcelain Crafts ($24,458), Perfect Fitness Rip Deck ($21,536), and SOLE E25 Elliptical ($18,000).
----
+## Priority Reorder Capital Allocation (Top Risk Contributors)
+A Paret analysis of the **$441,730** purchase commitment demonstrates that 71.8% of the capital deficit is concentrated across just three commercial lines:
+1. **Lawn Mower (SKU 1355):** 100 units in stock vs. 379 ROP. Deficit: 279 units.
+   **Immediate order cost: $148,590** (33.6% of total reorder budget).
+2. **Children’s Heaters (SKU 1350):** 96 units in stock vs. 357 ROP. Deficit: 261 units.
+   **Immediate order cost:** $93,203 (21.1% of total budget).
+3. **Smart Watch (SKU 1360):** 86 units in stock vs. 300 ROP. Deficit: 214 units.
+   **Immediate order cost:** $70,139 (15.9% of total budget).
+4. **Secondary Critical Drivers:** Porcelain Crafts ($24,458), Perfect Fitness Rip Deck ($21,536), and SOLE E25 Elliptical ($18,000).
+
 
 ## 4. What-If Scenari  - Analysis: Impact of 50% Lead Time Compression
-> **Key Finding: Contractually compressing inbound supplier lead times by 50% mathematically reduces required safety stock levels (), releasing $51,150 in permanent balance-sheet cash and generating $12,787 in recurring annualized P&L holding cost savings.**
+> **Key Finding:** Contractually compressing inbound supplier lead times by 50% mathematically reduces required safety stock levels (), releasing $51,150 in permanent balance-sheet cash and generating $12,787 in recurring annualized P&L holding cost savings.
 
 | Product Revenue Class | Baseline Working Capital | Simulated Working Capital (-50% Lead Time) | Cash Released t  - Balance Sheet | Annual Holding Cost Savings (25%) |
 | --- | --- | --- | --- | --- |
