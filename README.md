@@ -125,6 +125,7 @@ Strategic Mandate: Execute a phased $441,730 procurement deployment prioritized 
 │   └── Inventory_KPI_Dictionary.md           # Business definitions & operational formulas
 ├── tableau/
 │   └── Inventory_Optimization_Suite.twbx     # Packaged Tableau Workbook (3 Executive Tabs)
+│   └── README.md                             # Tableau Screenshots as well as descriptions 
 └── README.md                                 # Executive Project Showcase & ROI Diagnostic
 ```
 
